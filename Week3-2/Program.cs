@@ -11,6 +11,11 @@ namespace Week3_2
         /*In the details of the assignment, it has an example method as public static int[] RollDice()
          *I don't know if that is the necessary way to have it, as I am not sure what the int[] part does,
          *but I think I did good for being sick this week. :) */
+
+        /* EDIT: For 3-1 and 3-3, I changed the static void to public static, and I've understood it so far. The void doesn't return a value, which is bad in these cases.
+         * The public static parts make some sense to me. But, in trying to convert this one, it required the int[] array, which I don't know if I did some part wrong,
+         * But none of the variables work with the return value, because the die1 and die2 values are int, which doesn't work with int[]? So I left it as is.
+         * I don't understand what it particularly means, but I can get to asking on Monday. */
         static void RollDice()
         {
             //Now I know Random exists! I understand it pretty well, so I hope it's good
